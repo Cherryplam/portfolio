@@ -1,0 +1,103 @@
+.ali{
+	display: inline-block;
+  margin-left: 10px;
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:300px;
+  text-transform: uppercase;
+  color: #B22222;
+  text-decoration: non;
+}
+    /* ul*/
+.aul{
+	list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+      /* Марка*/
+.cherry {
+	margin-left: 20px
+	color:#B22222 ;
+    list-style: non;
+    margin: 5;
+    padding: 10;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+        
+
+      /* Блок div*/
+.head{
+margin: 4;
+  font-family:Helvetica, sans-serif;
+  background-color:#A0522D;
+  color: black;
+}
+  /* навигация*/
+.nav{
+	padding: 30px 0;
+  background-color: #DEB887;
+  border: 2px;
+}
+ 
+}
+
+.body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.section {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+
+.row,
+.row  .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+.img {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
